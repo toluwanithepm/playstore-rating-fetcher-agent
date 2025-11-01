@@ -145,7 +145,7 @@ export const scheduledRatingCheckWorkflow = createWorkflow({
               },
             };
             await memory.saveMessages({
-              messages: [message as any], // Cast to any to bypass strict type checking for now
+              messages: [message as any],
             });
           }
         } else {
