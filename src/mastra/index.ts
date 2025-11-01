@@ -25,4 +25,7 @@ export const mastra = new Mastra({
     },
     apiRoutes: [a2aAgentRoute],
   },
+  bundler: {
+    externals: ["google-play-scraper"],
+  },
 });
